@@ -1,0 +1,100 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+main {
+    margin: 150px 0px 80px 0px;
+}
+header {
+    width: 100%;
+    margin: 0%;
+}
+nav {
+    top:0;
+    position:fixed;
+    height: 150px;
+    background-color:#BAC5CF;
+    margin-left:0;
+    width: 100%;
+    text-align: center;
+    
+}
+footer {
+    bottom: 0;
+    position:fixed;
+    height: 80px;
+    width: 100%;
+    background-color:#BAC5CF;
+}
+#nav_liste li {
+    display: inline;
+    margin-left: 40px;
+    float: right;
+
+}
+#top_games li {
+    display: inline;
+    margin: 40px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+#logo {
+    float: left;
+    margin: 20px 0px 10px 10px;
+}
+#nav_liste {
+    margin-top: 50px;
+    margin-right: 100px;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;    
+}
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #1b203d;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer; 
+}
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  * {
+    box-sizing: border-box;
+  }
+.btn {
+    background-color: #787389;
+    border: none; 
+    color: white; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
+.btn:hover {
+    background-color: #1B203D;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+.search_field {
+    color: aqua;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
