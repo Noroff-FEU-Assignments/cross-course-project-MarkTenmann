@@ -1,0 +1,290 @@
+:root {
+    --darkgray: #212329;
+    --brightred: #f9423d;
+    --white: #fff;
+    --lightred: #f9433dcc;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: font-family: 'Montserrat', sans-serif;
+}
+
+.nav-box {
+    width: 100%;
+    background-color: #FFFF19;
+    height: 160px;
+}
+
+.navibar {
+    display: grid;
+    grid-template-columns: 0.2fr auto 1fr;
+    align-items: center;
+    height: 80px;
+    width: 90%;
+    max-width: 1720px;
+    margin: 0 auto;
+}
+
+#logo {
+    justify-self: start;
+    margin-left: 1px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    justify-self: end;
+}
+
+.active {
+    color: #000000;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textbox {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-left: 120px;
+    height: 430px;
+}
+#hallwaypic {
+    float: right;
+    width: 800px;
+    margin: 20px 70px 20px 0px;
+}
+
+.paragraf {
+    width: 45%;
+    line-height: 36px;
+    margin-top: 40px;
+    float:left;
+}
+h1{
+    width: 40%;
+    float:left;
+}
+.langtekst{
+    line-height: 36px;
+    width:80%;
+    margin: 10px 20px 10px 100px;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.langtekst p{
+    margin: 20px;  
+}
+
+.nederst {
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px 30px 30px;
+}
+
+#Forkids {
+    font-size: 28px;
+    text-decoration: underline;
+    text-align: center;
+    margin: auto auto;
+    width:100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Forteachers {
+    font-size: 28px;
+    text-decoration: underline;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#Forresearchers {
+    font-size: 28px;
+    text-decoration: underline;
+    margin-left: 20px;
+    float: right;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.Kidsbox {
+    margin: 40px 50px 20px 200px;
+    background-color: #D6D3D3;
+    float: left;
+    width: 20%;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 24px;
+}
+
+.Teachersbox {
+    margin: 40px 50px 20px 120px;
+    background-color: #D6D3D3;
+    float: left;
+    width: 20%;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 24px;
+}
+
+.Researchersbox {
+    margin: 40px 50px 20px 120px;
+    background-color: #D6D3D3;
+    float: left;
+    width: 20%;
+    text-align: center;
+    line-height: 25px; 
+    border-radius: 24px; 
+}
+.Kidsbox p {
+    margin: 30px 30px 30px 30px;
+
+}
+
+.Teachersbox p {
+    margin: 30px 30px 30px 30px;
+}
+
+.Researchersbox p {
+    margin: 30px 30px 30px 30px;
+}
+
+.Box_layout {
+    background-color: #56778D;
+    width: 80%;
+    margin: auto auto;
+    margin-top: 20px;
+    display: flex;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 50px;
+
+}
+
+.Box_layout p {
+    
+    text-align: left;
+    justify-content: start;
+    font-size: 23px;
+    width: 95%;
+    color: white;
+}
+#h1_layout {
+    width: 99%;
+    color: white;
+    margin-left: 0;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.test {
+    width: 50%;
+    justify-content: start;
+}
+
+#pic_layout {
+    justify-content: flex-end;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#visit_adm {
+    border-style: solid;
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+#visit_headadm {
+   margin: 10px;
+   text-decoration: underline;
+   width: 99%;
+   
+}
+
+#para_visit {
+    font-size: 20px;
+    text-align: start;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    
+}
+
+#visit_loc {
+    border-style: solid;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#para_loc {
+    margin: 10px;
+    font-size: 20px;
+}
+
+#visit_headloc {
+    width: 99%;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+iframe {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+ #visit_general {
+    border-style: solid;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+ }
+
+ #visit_headgen {
+     width: 99%;
+     text-decoration: underline;
+     margin: 10px;
+
+ }
+
+ #visit_paragen {
+     margin: 10px;
+     font-size: 20px;
+ }
+
+ table { 
+     width: 100%;
+     margin-top: 20px;
+ }
+
+ #visit_headopen {
+     margin: auto;
+     margin: 10px;
+     text-decoration: underline;
+     
+ }
+
+ #opening_table {
+     margin: auto;
+     width: 40%;
+     border-style: solid;
+     margin-bottom: 50px;
+     margin-top: 20px;
+ }
