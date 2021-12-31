@@ -73,6 +73,7 @@ input[type="checkbox"]{
     text-align: center;
     display: block;
     transition: all 0.3s ease;
+    z-index: 10;
   }
   #click:checked ~ ul{
     left: 0;
@@ -142,4 +143,9 @@ input[type="checkbox"]{
 
 .container .btn:hover {
   background-color: black;
+}
+
+#maps_google {
+  display: flex;
+  align-content: center;
 }
