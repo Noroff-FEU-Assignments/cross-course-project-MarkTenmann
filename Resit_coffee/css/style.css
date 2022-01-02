@@ -120,6 +120,15 @@ input[type="checkbox"]{
 @media screen and (max-width:960px) {
   .container_1 {
     display: block;
+    width: 90%;
+  }
+  
+}
+
+@media screen and (max-width:960px) {
+  .container img {
+    display: block;
+    width: 90%;
   }
   
 }
