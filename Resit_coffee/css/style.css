@@ -282,16 +282,16 @@ table {
 
 @media screen and (max-width:960px) {
   #contact_box {
-    margin-top: 100px;
+    margin-top: 40px;
   }
   
 }
 
 @media screen and (max-width:960px) {
   #opening_table {
-    height: 20%;
+    height: 50%;
     width: 90%;
-    display: block;
+    display: block;    
   }
   
 }
