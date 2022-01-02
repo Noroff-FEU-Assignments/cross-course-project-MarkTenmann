@@ -117,6 +117,13 @@ input[type="checkbox"]{
   
 }
 
+@media screen and (max-width:960px) {
+  .container_1 {
+    display: block;
+  }
+  
+}
+
 .w3-button {
   position: absolute;
   top: 50%;
