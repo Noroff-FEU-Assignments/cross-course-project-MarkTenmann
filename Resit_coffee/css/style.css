@@ -289,7 +289,7 @@ table {
 
 @media screen and (max-width:960px) {
   #opening_table {
-    height: 50%;
+    height: 40%;
     width: 90%;
     display: block;    
   }
